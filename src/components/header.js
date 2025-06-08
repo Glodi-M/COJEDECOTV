@@ -1,9 +1,8 @@
 import React from 'react'
-import logo from '../assets/COJEDECO4.png';
+import logo from '../assets/COJEDECOnew.png';
 import '../styles/header.css';
 
-export default function Header() {
-
+function header() {
     return (
         <div>
             <header className="header">
@@ -28,3 +27,5 @@ export default function Header() {
         </div>
     )
 }
+
+export default header
