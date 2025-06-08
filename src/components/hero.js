@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../assets/COJEDECOnew.png';
+import logo from '../assets/COJEDECO1.gif';
 import '../styles/hero.css';
 
 function Hero() {
