@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import logo from '../assets/COJEDECO4.png';
+import logo from '../assets/COJEDECOnew.png';
 import '../styles/hero.css';
 
-function hero() {
+function Hero() {
   const [message, setMessage] = useState('Rejoins COJEDECOTV pour t\'inspirer un avenir meilleur !');
 
   const handleClick = () => {
@@ -15,11 +15,11 @@ function hero() {
         <img src={logo} alt="Logo COJEDECO TV" />
       </div>
 
-      <h1 className="hero-title">Eveille-toi - Agis - Transforme le Monde</h1>
+      <p className="hero-title">Éveille-toi - Agis - Transforme le monde.</p>
       <p className='hero-subtitle'>{message}</p>
       <button className="cta-button" onClick={handleClick}> Découvrir nos vidéos </button>
     </section>
   )
 }
 
-export default hero
+export default Hero

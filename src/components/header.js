@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../assets/COJEDECO4.png';
 import '../styles/header.css';
 
-export default function header() {
+export default function Header() {
 
     return (
         <div>
