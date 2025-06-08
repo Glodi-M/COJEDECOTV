@@ -3,10 +3,11 @@ import logo from '../assets/COJEDECO4.png';
 import '../styles/header.css';
 
 export default function header() {
+
     return (
         <div>
             <header className="header">
-                <img src={logo} alt="Logo COJEDECO TV" className="logo"/>
+                <a href='#home'> <img src={logo} alt="Logo COJEDECO TV" className="logo" /></a>
                 <nav className="nav">
                     <ul className="nav-list">
                         <li className='nav-item'>

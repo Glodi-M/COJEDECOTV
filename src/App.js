@@ -1,12 +1,13 @@
 import React from 'react';
 import Header from './components/header';
+import Hero from './components/hero';
 
 
 export default function App() {
   return (
     <div>
       <Header />
-      <h1>Bienvenue sur COJEDECO TV </h1>
+      <Hero />
 
     </div>
   )

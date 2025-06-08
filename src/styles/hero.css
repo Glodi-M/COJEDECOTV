@@ -1,0 +1,38 @@
+.hero {
+    background-color: #00acc1;
+    color: white;
+    text-align: center;
+    padding: 4rem 1rem;
+    position: relative;
+}
+
+.hero-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #0288d1;
+}
+
+.hero-image img {
+    width: 200px;
+    height: 200px;
+
+}
